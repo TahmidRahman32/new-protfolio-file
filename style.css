@@ -16,6 +16,12 @@
    border-radius: 5px;
    background: #FD6E0A;
 }
+.header{
+background: #FFF8F3;
+background-image: url("./header_bg.png"),url("./developer.png");
+background-repeat: no-repeat;
+background-position: bottom right, left;
+}
 /* header and ndevigation style */
 nav{
    display: flex;
@@ -54,4 +60,24 @@ font-weight: 700;
    font-size: 18px;
    margin-bottom: 30px;
 }
-
+/* main section  */
+main{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+/* about section  */
+.about{
+margin-top: 130px;
+background: #FFF8F3;
+border-radius: 10px ;
+padding: 130px 150px;
+}
+.section-title{
+text-align: center;
+margin-bottom: 30px;
+}
+.section-description{
+   color:#757575;
+   font-size: 18px;
+   margin-bottom: 30px;
+}
